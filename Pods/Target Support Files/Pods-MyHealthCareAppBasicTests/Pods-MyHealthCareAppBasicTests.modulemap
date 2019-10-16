@@ -1,0 +1,6 @@
+framework module Pods_MyHealthCareAppBasicTests {
+  umbrella header "Pods-MyHealthCareAppBasicTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

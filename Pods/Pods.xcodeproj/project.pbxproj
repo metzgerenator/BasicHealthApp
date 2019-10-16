@@ -1,0 +1,1210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1B64AAFF7CDB86AF01701FFF70942 /* Response.swift */; };
+		0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36B3CA4E713CB0FFF106304EEF0DEF1 /* Alamofire.swift */; };
+		0AB0A427A3DCC69BF190FAC1FEFB54A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		1CCC6C11F1A2CA0884A96ED5490902A4 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A040007A7E1E412347C82B205E81437 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CCF4A2C904BFA44ACEB4A9F49786E05 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0566C4B73DEC2CDCAF52248DB50104 /* SwiftyJSON-dummy.m */; };
+		1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D844E580890A455AD8417C867F53694E /* Notifications.swift */; };
+		1E4C9664C3D22A73B07001A8BB463D90 /* Pods-MyHealthCareAppBasicUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F146321746922F3EDB73475908C7FCA7 /* Pods-MyHealthCareAppBasicUITests-dummy.m */; };
+		2723EED11C32356D5E291009FA58CADB /* Pods-MyHealthCareAppBasicTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3692634D862E3C2B31A20ABFFAB66737 /* Pods-MyHealthCareAppBasicTests-dummy.m */; };
+		355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857BF36E9261A8BD3808EB6163FE3C52 /* Request.swift */; };
+		3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0830CB864819DCDD3341BB37E5E0032 /* DispatchQueue+Alamofire.swift */; };
+		48A5F31DEDF6E002C4124F19338F7632 /* Pods-MyHealthCareAppBasic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D40125C5CFDBD578E317DBEECA54E13 /* Pods-MyHealthCareAppBasic-dummy.m */; };
+		4D067A5D8C027C20055C9B4DB004B694 /* Pods-MyHealthCareAppBasicTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC6E93EAB6E9E454F6682F3DD4ABAAD /* Pods-MyHealthCareAppBasicTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D88603E36D4C57D907FE827AE54F972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		559B23F0DE266D7D6227D0ADFE54F6FC /* Pods-MyHealthCareAppBasicUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 244C7C139FBC1E6469FA08AF92B90D4C /* Pods-MyHealthCareAppBasicUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5B8DE13BF4D8F7290A2355E397D3F /* Timeline.swift */; };
+		6B4259A482384B5D44C0A56A55E0EDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB574B82DEB1B0F57AB828256FCB7E /* ResponseSerialization.swift */; };
+		700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8EA7A2B5E608C088D0D220EEBF1ACC /* ParameterEncoding.swift */; };
+		73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D612CC8BA9BA23950FC56C7D446323 /* NetworkReachabilityManager.swift */; };
+		764ADA4FE72798B69AD783EF288B577D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9503119E9B554AE6BAB8399F111CF96E /* Alamofire-dummy.m */; };
+		77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490ED5988528ED946A9AFF95523FF40 /* TaskDelegate.swift */; };
+		7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204818AD5A4347DE4F0E893504A2C9D /* AFError.swift */; };
+		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E188BECB488E1B148300C7CDE0A16 /* ServerTrustPolicy.swift */; };
+		96544FD901B16B7461F5841408D15FE6 /* Pods-MyHealthCareAppBasic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D48ED0A916F27C629398DD2F448012C /* Pods-MyHealthCareAppBasic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768BFFDF1B9DB04388C4F2B9F9D0098 /* SessionDelegate.swift */; };
+		AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA0C62385A7EDB6EF01E02A3B5946C /* Validation.swift */; };
+		AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7497ABFB54F0758CA7AD6508B548EC36 /* MultipartFormData.swift */; };
+		B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F85B312F331E5B60FD5C75BAEEA124AB /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F1C1451075E64C7178ECAC40680C5E /* SessionManager.swift */; };
+		E70F537C81270F9B30B17B357291BF54 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134A1569E701AE61E9E1476BF73302F /* SwiftyJSON.swift */; };
+		EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED43DAC57BC55F440EAEAC1BBC1E7E /* Result.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EB7D40FC3A7DB65A7AAE210894FC910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 996F0AAE98FDC52D9A6F93A82C6CD6B1;
+			remoteInfo = "Pods-MyHealthCareAppBasic";
+		};
+		940BE63515D9525666B134324CAB9DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C802AEBC1B908CEE2EA335773C1A5442;
+			remoteInfo = SwiftyJSON;
+		};
+		F9D92587A423486EA6E6F9DE7D3297F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3383968E74B5371B20BB519B170DC7FD;
+			remoteInfo = Alamofire;
+		};
+		FA776E0FE11EE7BE3442A4863E87DC0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 996F0AAE98FDC52D9A6F93A82C6CD6B1;
+			remoteInfo = "Pods-MyHealthCareAppBasic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0490ED5988528ED946A9AFF95523FF40 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		0604080E4190C71C53BE8FF21BEEF74E /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		064A300D1588CE326CB1CA58233B5C41 /* Pods-MyHealthCareAppBasicTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyHealthCareAppBasicTests-Info.plist"; sourceTree = "<group>"; };
+		0768BFFDF1B9DB04388C4F2B9F9D0098 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		1680068C080D74FA503B174AF777D857 /* Pods-MyHealthCareAppBasic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyHealthCareAppBasic-frameworks.sh"; sourceTree = "<group>"; };
+		17BA0C62385A7EDB6EF01E02A3B5946C /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		1E3DC0A2C5B3E45C3B89083AA6B4EE89 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		1E6884B9C8530AA731694DD9304003E8 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		244C7C139FBC1E6469FA08AF92B90D4C /* Pods-MyHealthCareAppBasicUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyHealthCareAppBasicUITests-umbrella.h"; sourceTree = "<group>"; };
+		2D44C1775A98BD4713CA798BA4D9EA3A /* Pods-MyHealthCareAppBasicUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyHealthCareAppBasicUITests.modulemap"; sourceTree = "<group>"; };
+		3134A1569E701AE61E9E1476BF73302F /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		3692634D862E3C2B31A20ABFFAB66737 /* Pods-MyHealthCareAppBasicTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyHealthCareAppBasicTests-dummy.m"; sourceTree = "<group>"; };
+		39673C8FB2145F3D12873EB78742BD1F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		43B6B65450D8F293E70D705BEA24C9FC /* Pods-MyHealthCareAppBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthCareAppBasic.release.xcconfig"; sourceTree = "<group>"; };
+		4A3CE188D5D218044CB0636C999C963F /* Pods-MyHealthCareAppBasic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyHealthCareAppBasic-Info.plist"; sourceTree = "<group>"; };
+		4A708AC2DDA0B2510AF5C104C3115012 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9D3BFC23CBA2957B460B76AFD393A5 /* Pods-MyHealthCareAppBasicTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyHealthCareAppBasicTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FC6E93EAB6E9E454F6682F3DD4ABAAD /* Pods-MyHealthCareAppBasicTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyHealthCareAppBasicTests-umbrella.h"; sourceTree = "<group>"; };
+		51E8F912B1CE93FCF58EBCDA3FE2B4B8 /* Pods-MyHealthCareAppBasic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyHealthCareAppBasic-acknowledgements.plist"; sourceTree = "<group>"; };
+		57ED43DAC57BC55F440EAEAC1BBC1E7E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		5AB98764545AB213AA24983B6E214B07 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0566C4B73DEC2CDCAF52248DB50104 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		5D40125C5CFDBD578E317DBEECA54E13 /* Pods-MyHealthCareAppBasic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyHealthCareAppBasic-dummy.m"; sourceTree = "<group>"; };
+		5DA1B64AAFF7CDB86AF01701FFF70942 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		5E024FF144D1DBE39A3D29E4EFE69FAB /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		64A4D83D54035A4AFE06A95F82CC54C7 /* Pods-MyHealthCareAppBasicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthCareAppBasicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67803C15B10853B862922C21265C8865 /* Pods-MyHealthCareAppBasicTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyHealthCareAppBasicTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		690D72C53A7007515657F134F6C8EB6E /* Pods-MyHealthCareAppBasicUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyHealthCareAppBasicUITests-Info.plist"; sourceTree = "<group>"; };
+		6A040007A7E1E412347C82B205E81437 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		6F8EA7A2B5E608C088D0D220EEBF1ACC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		7081C3EE03B0AC98B6C8C6725BB0388C /* Pods-MyHealthCareAppBasic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyHealthCareAppBasic.modulemap"; sourceTree = "<group>"; };
+		70B47A1CA4496158DB08A5603D0B3BA8 /* Pods-MyHealthCareAppBasicUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyHealthCareAppBasicUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7497ABFB54F0758CA7AD6508B548EC36 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		857BF36E9261A8BD3808EB6163FE3C52 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		8D48ED0A916F27C629398DD2F448012C /* Pods-MyHealthCareAppBasic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyHealthCareAppBasic-umbrella.h"; sourceTree = "<group>"; };
+		8E0CD7EBB888F1227474D6F32DB1AC6B /* Pods_MyHealthCareAppBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyHealthCareAppBasic.framework; path = "Pods-MyHealthCareAppBasic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9503119E9B554AE6BAB8399F111CF96E /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A36B3CA4E713CB0FFF106304EEF0DEF1 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A559A5B4584B1C02C25DA28ADAA7E65F /* Pods-MyHealthCareAppBasicUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyHealthCareAppBasicUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6C11AC05CBD23B2355ED9ECE57AC999 /* Pods-MyHealthCareAppBasicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthCareAppBasicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE1B648A36A9AB25F4E541D6D70CDCB /* Pods-MyHealthCareAppBasicTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyHealthCareAppBasicTests.modulemap"; sourceTree = "<group>"; };
+		B204818AD5A4347DE4F0E893504A2C9D /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		B28A4E44291DD0DEC362A16E9A105DF1 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		B2C67D44603F3189F82A6D568DA54B95 /* Pods_MyHealthCareAppBasicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyHealthCareAppBasicTests.framework; path = "Pods-MyHealthCareAppBasicTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EB574B82DEB1B0F57AB828256FCB7E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B86683F552E98AB8AF8C218BB51275AC /* Pods_MyHealthCareAppBasicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyHealthCareAppBasicUITests.framework; path = "Pods-MyHealthCareAppBasicUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0830CB864819DCDD3341BB37E5E0032 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		C0D612CC8BA9BA23950FC56C7D446323 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		C2C8B54854A8125323498A762CA245E6 /* Pods-MyHealthCareAppBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthCareAppBasic.debug.xcconfig"; sourceTree = "<group>"; };
+		C98E743429343BC5C8A8129275BC3944 /* Pods-MyHealthCareAppBasicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthCareAppBasicTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0A213680E54C9DD7A155D57F25742AB /* Pods-MyHealthCareAppBasic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyHealthCareAppBasic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D386EFBFC8B955B171640358B0E146CE /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		D844E580890A455AD8417C867F53694E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		D90E188BECB488E1B148300C7CDE0A16 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		F0F1C1451075E64C7178ECAC40680C5E /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		F13D0ADB64BA0E65B33A7A3D6689C143 /* Pods-MyHealthCareAppBasicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyHealthCareAppBasicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F146321746922F3EDB73475908C7FCA7 /* Pods-MyHealthCareAppBasicUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyHealthCareAppBasicUITests-dummy.m"; sourceTree = "<group>"; };
+		F3F5B8DE13BF4D8F7290A2355E397D3F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		F69FC002862EF92F9067DAF2572A6A50 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		F85B312F331E5B60FD5C75BAEEA124AB /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22890E27CB9A48533399B4E23D24DC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4259A482384B5D44C0A56A55E0EDBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7994559E90D79E83740261EC6E370C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB0A427A3DCC69BF190FAC1FEFB54A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7D65F9EB2879754466EC0C660ADEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764ADA4FE72798B69AD783EF288B577D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9248DA721EF626DE2EA00594144ABFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D88603E36D4C57D907FE827AE54F972 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0109B6716A6F1EB944B33B18718579D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69FC002862EF92F9067DAF2572A6A50 /* Alamofire.modulemap */,
+				39673C8FB2145F3D12873EB78742BD1F /* Alamofire.xcconfig */,
+				9503119E9B554AE6BAB8399F111CF96E /* Alamofire-dummy.m */,
+				D386EFBFC8B955B171640358B0E146CE /* Alamofire-Info.plist */,
+				B28A4E44291DD0DEC362A16E9A105DF1 /* Alamofire-prefix.pch */,
+				F85B312F331E5B60FD5C75BAEEA124AB /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		1F03F77AF975E1B1037F83AEA50ABCC5 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				3134A1569E701AE61E9E1476BF73302F /* SwiftyJSON.swift */,
+				3D496DB60333E5663869D9E7EC229E4A /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		3D496DB60333E5663869D9E7EC229E4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DC0A2C5B3E45C3B89083AA6B4EE89 /* SwiftyJSON.modulemap */,
+				1E6884B9C8530AA731694DD9304003E8 /* SwiftyJSON.xcconfig */,
+				5C0566C4B73DEC2CDCAF52248DB50104 /* SwiftyJSON-dummy.m */,
+				0604080E4190C71C53BE8FF21BEEF74E /* SwiftyJSON-Info.plist */,
+				5E024FF144D1DBE39A3D29E4EFE69FAB /* SwiftyJSON-prefix.pch */,
+				6A040007A7E1E412347C82B205E81437 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		634CB438AB0168C26FB29890698DC90F /* Pods-MyHealthCareAppBasic */ = {
+			isa = PBXGroup;
+			children = (
+				7081C3EE03B0AC98B6C8C6725BB0388C /* Pods-MyHealthCareAppBasic.modulemap */,
+				D0A213680E54C9DD7A155D57F25742AB /* Pods-MyHealthCareAppBasic-acknowledgements.markdown */,
+				51E8F912B1CE93FCF58EBCDA3FE2B4B8 /* Pods-MyHealthCareAppBasic-acknowledgements.plist */,
+				5D40125C5CFDBD578E317DBEECA54E13 /* Pods-MyHealthCareAppBasic-dummy.m */,
+				1680068C080D74FA503B174AF777D857 /* Pods-MyHealthCareAppBasic-frameworks.sh */,
+				4A3CE188D5D218044CB0636C999C963F /* Pods-MyHealthCareAppBasic-Info.plist */,
+				8D48ED0A916F27C629398DD2F448012C /* Pods-MyHealthCareAppBasic-umbrella.h */,
+				C2C8B54854A8125323498A762CA245E6 /* Pods-MyHealthCareAppBasic.debug.xcconfig */,
+				43B6B65450D8F293E70D705BEA24C9FC /* Pods-MyHealthCareAppBasic.release.xcconfig */,
+			);
+			name = "Pods-MyHealthCareAppBasic";
+			path = "Target Support Files/Pods-MyHealthCareAppBasic";
+			sourceTree = "<group>";
+		};
+		7187BAA7AFCD9D5159B8A7FF83BFC218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC253CEC688C0C5347853A605B05216 /* Alamofire */,
+				1F03F77AF975E1B1037F83AEA50ABCC5 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		813C7A34501D17232EE5D92599750C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB98764545AB213AA24983B6E214B07 /* Alamofire.framework */,
+				8E0CD7EBB888F1227474D6F32DB1AC6B /* Pods_MyHealthCareAppBasic.framework */,
+				B2C67D44603F3189F82A6D568DA54B95 /* Pods_MyHealthCareAppBasicTests.framework */,
+				B86683F552E98AB8AF8C218BB51275AC /* Pods_MyHealthCareAppBasicUITests.framework */,
+				4A708AC2DDA0B2510AF5C104C3115012 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9150B8C399E69EDFF91AC2DA79F466F6 /* Pods-MyHealthCareAppBasicTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE1B648A36A9AB25F4E541D6D70CDCB /* Pods-MyHealthCareAppBasicTests.modulemap */,
+				4A9D3BFC23CBA2957B460B76AFD393A5 /* Pods-MyHealthCareAppBasicTests-acknowledgements.markdown */,
+				67803C15B10853B862922C21265C8865 /* Pods-MyHealthCareAppBasicTests-acknowledgements.plist */,
+				3692634D862E3C2B31A20ABFFAB66737 /* Pods-MyHealthCareAppBasicTests-dummy.m */,
+				064A300D1588CE326CB1CA58233B5C41 /* Pods-MyHealthCareAppBasicTests-Info.plist */,
+				4FC6E93EAB6E9E454F6682F3DD4ABAAD /* Pods-MyHealthCareAppBasicTests-umbrella.h */,
+				A6C11AC05CBD23B2355ED9ECE57AC999 /* Pods-MyHealthCareAppBasicTests.debug.xcconfig */,
+				C98E743429343BC5C8A8129275BC3944 /* Pods-MyHealthCareAppBasicTests.release.xcconfig */,
+			);
+			name = "Pods-MyHealthCareAppBasicTests";
+			path = "Target Support Files/Pods-MyHealthCareAppBasicTests";
+			sourceTree = "<group>";
+		};
+		9181C71BC38F96855CB0D2EB1EFF2E47 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				634CB438AB0168C26FB29890698DC90F /* Pods-MyHealthCareAppBasic */,
+				9150B8C399E69EDFF91AC2DA79F466F6 /* Pods-MyHealthCareAppBasicTests */,
+				B4A458751C02F54DFAC4B4C829B36934 /* Pods-MyHealthCareAppBasicUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B4A458751C02F54DFAC4B4C829B36934 /* Pods-MyHealthCareAppBasicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D44C1775A98BD4713CA798BA4D9EA3A /* Pods-MyHealthCareAppBasicUITests.modulemap */,
+				A559A5B4584B1C02C25DA28ADAA7E65F /* Pods-MyHealthCareAppBasicUITests-acknowledgements.markdown */,
+				70B47A1CA4496158DB08A5603D0B3BA8 /* Pods-MyHealthCareAppBasicUITests-acknowledgements.plist */,
+				F146321746922F3EDB73475908C7FCA7 /* Pods-MyHealthCareAppBasicUITests-dummy.m */,
+				690D72C53A7007515657F134F6C8EB6E /* Pods-MyHealthCareAppBasicUITests-Info.plist */,
+				244C7C139FBC1E6469FA08AF92B90D4C /* Pods-MyHealthCareAppBasicUITests-umbrella.h */,
+				F13D0ADB64BA0E65B33A7A3D6689C143 /* Pods-MyHealthCareAppBasicUITests.debug.xcconfig */,
+				64A4D83D54035A4AFE06A95F82CC54C7 /* Pods-MyHealthCareAppBasicUITests.release.xcconfig */,
+			);
+			name = "Pods-MyHealthCareAppBasicUITests";
+			path = "Target Support Files/Pods-MyHealthCareAppBasicUITests";
+			sourceTree = "<group>";
+		};
+		BFC253CEC688C0C5347853A605B05216 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				B204818AD5A4347DE4F0E893504A2C9D /* AFError.swift */,
+				A36B3CA4E713CB0FFF106304EEF0DEF1 /* Alamofire.swift */,
+				C0830CB864819DCDD3341BB37E5E0032 /* DispatchQueue+Alamofire.swift */,
+				7497ABFB54F0758CA7AD6508B548EC36 /* MultipartFormData.swift */,
+				C0D612CC8BA9BA23950FC56C7D446323 /* NetworkReachabilityManager.swift */,
+				D844E580890A455AD8417C867F53694E /* Notifications.swift */,
+				6F8EA7A2B5E608C088D0D220EEBF1ACC /* ParameterEncoding.swift */,
+				857BF36E9261A8BD3808EB6163FE3C52 /* Request.swift */,
+				5DA1B64AAFF7CDB86AF01701FFF70942 /* Response.swift */,
+				B3EB574B82DEB1B0F57AB828256FCB7E /* ResponseSerialization.swift */,
+				57ED43DAC57BC55F440EAEAC1BBC1E7E /* Result.swift */,
+				D90E188BECB488E1B148300C7CDE0A16 /* ServerTrustPolicy.swift */,
+				0768BFFDF1B9DB04388C4F2B9F9D0098 /* SessionDelegate.swift */,
+				F0F1C1451075E64C7178ECAC40680C5E /* SessionManager.swift */,
+				0490ED5988528ED946A9AFF95523FF40 /* TaskDelegate.swift */,
+				F3F5B8DE13BF4D8F7290A2355E397D3F /* Timeline.swift */,
+				17BA0C62385A7EDB6EF01E02A3B5946C /* Validation.swift */,
+				0109B6716A6F1EB944B33B18718579D5 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7187BAA7AFCD9D5159B8A7FF83BFC218 /* Pods */,
+				813C7A34501D17232EE5D92599750C5C /* Products */,
+				9181C71BC38F96855CB0D2EB1EFF2E47 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FA405A815ADFC9D0166A3F5D4430B5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D067A5D8C027C20055C9B4DB004B694 /* Pods-MyHealthCareAppBasicTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D4004518C96E1953FB82E0FD0C03EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCC6C11F1A2CA0884A96ED5490902A4 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6547BDF15A55A72F878D647A956D0FA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96544FD901B16B7461F5841408D15FE6 /* Pods-MyHealthCareAppBasic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D481504D4E3A4B83F67E7262AFDD91A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559B23F0DE266D7D6227D0ADFE54F6FC /* Pods-MyHealthCareAppBasicUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23ED57BD29AE044C5AD683459CBD3F07 /* Pods-MyHealthCareAppBasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7647FB71B8FF1A3A96CADB06A1C52F59 /* Build configuration list for PBXNativeTarget "Pods-MyHealthCareAppBasicTests" */;
+			buildPhases = (
+				4FA405A815ADFC9D0166A3F5D4430B5F /* Headers */,
+				342F2D4E8F7554EFBBB4D16E8384AF23 /* Sources */,
+				BC7D65F9EB2879754466EC0C660ADEC6 /* Frameworks */,
+				4406244632EE03ACB2A96B22778A8188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA5E103CD0A5301CA230D69C4D06004 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyHealthCareAppBasicTests";
+			productName = "Pods-MyHealthCareAppBasicTests";
+			productReference = B2C67D44603F3189F82A6D568DA54B95 /* Pods_MyHealthCareAppBasicTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24026CFE307784FBE561BC1CCD1B806B /* Pods-MyHealthCareAppBasicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33BD297D376598875230234BB4505C3 /* Build configuration list for PBXNativeTarget "Pods-MyHealthCareAppBasicUITests" */;
+			buildPhases = (
+				9D481504D4E3A4B83F67E7262AFDD91A /* Headers */,
+				079EA2C8C1DC7C9B4AA35E72614AA212 /* Sources */,
+				7994559E90D79E83740261EC6E370C96 /* Frameworks */,
+				05389B5F8DE4269C371053DF33BD2BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52419C9F5A7AB10307B947C3A078C3D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyHealthCareAppBasicUITests";
+			productName = "Pods-MyHealthCareAppBasicUITests";
+			productReference = B86683F552E98AB8AF8C218BB51275AC /* Pods_MyHealthCareAppBasicUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3383968E74B5371B20BB519B170DC7FD /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */,
+				A1C8B029F600160149A2404C342F6E50 /* Sources */,
+				F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */,
+				28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5AB98764545AB213AA24983B6E214B07 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		996F0AAE98FDC52D9A6F93A82C6CD6B1 /* Pods-MyHealthCareAppBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132AF58F7858168F822018EED7A40D8B /* Build configuration list for PBXNativeTarget "Pods-MyHealthCareAppBasic" */;
+			buildPhases = (
+				6547BDF15A55A72F878D647A956D0FA6 /* Headers */,
+				E97B6E80C552CD7D301B52A634F5259B /* Sources */,
+				22890E27CB9A48533399B4E23D24DC0B /* Frameworks */,
+				DDCB4D7848708E0FF403E11746FDB446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21AC09E2024D4120BA34BAA6E6FED63E /* PBXTargetDependency */,
+				6B11A1FFBEF8AE0295428E56CE12E259 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyHealthCareAppBasic";
+			productName = "Pods-MyHealthCareAppBasic";
+			productReference = 8E0CD7EBB888F1227474D6F32DB1AC6B /* Pods_MyHealthCareAppBasic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C802AEBC1B908CEE2EA335773C1A5442 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CF4E4457D43D32F26BE3A2661331FB /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				58D4004518C96E1953FB82E0FD0C03EE /* Headers */,
+				16AC40745017D0CD126B523DA4A7F5E0 /* Sources */,
+				D9248DA721EF626DE2EA00594144ABFF /* Frameworks */,
+				B820881A99247F6CC664CFAEEF7C5530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 4A708AC2DDA0B2510AF5C104C3115012 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 813C7A34501D17232EE5D92599750C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3383968E74B5371B20BB519B170DC7FD /* Alamofire */,
+				996F0AAE98FDC52D9A6F93A82C6CD6B1 /* Pods-MyHealthCareAppBasic */,
+				23ED57BD29AE044C5AD683459CBD3F07 /* Pods-MyHealthCareAppBasicTests */,
+				24026CFE307784FBE561BC1CCD1B806B /* Pods-MyHealthCareAppBasicUITests */,
+				C802AEBC1B908CEE2EA335773C1A5442 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05389B5F8DE4269C371053DF33BD2BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4406244632EE03ACB2A96B22778A8188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B820881A99247F6CC664CFAEEF7C5530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCB4D7848708E0FF403E11746FDB446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079EA2C8C1DC7C9B4AA35E72614AA212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4C9664C3D22A73B07001A8BB463D90 /* Pods-MyHealthCareAppBasicUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16AC40745017D0CD126B523DA4A7F5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCF4A2C904BFA44ACEB4A9F49786E05 /* SwiftyJSON-dummy.m in Sources */,
+				E70F537C81270F9B30B17B357291BF54 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342F2D4E8F7554EFBBB4D16E8384AF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2723EED11C32356D5E291009FA58CADB /* Pods-MyHealthCareAppBasicTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C8B029F600160149A2404C342F6E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */,
+				772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */,
+				0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */,
+				3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */,
+				AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */,
+				73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */,
+				1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */,
+				700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */,
+				355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */,
+				059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */,
+				6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */,
+				EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */,
+				8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */,
+				A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */,
+				D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */,
+				77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */,
+				60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */,
+				AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97B6E80C552CD7D301B52A634F5259B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A5F31DEDF6E002C4124F19338F7632 /* Pods-MyHealthCareAppBasic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21AC09E2024D4120BA34BAA6E6FED63E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
+			targetProxy = F9D92587A423486EA6E6F9DE7D3297F2 /* PBXContainerItemProxy */;
+		};
+		52419C9F5A7AB10307B947C3A078C3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyHealthCareAppBasic";
+			target = 996F0AAE98FDC52D9A6F93A82C6CD6B1 /* Pods-MyHealthCareAppBasic */;
+			targetProxy = FA776E0FE11EE7BE3442A4863E87DC0F /* PBXContainerItemProxy */;
+		};
+		6B11A1FFBEF8AE0295428E56CE12E259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = C802AEBC1B908CEE2EA335773C1A5442 /* SwiftyJSON */;
+			targetProxy = 940BE63515D9525666B134324CAB9DDD /* PBXContainerItemProxy */;
+		};
+		BDA5E103CD0A5301CA230D69C4D06004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyHealthCareAppBasic";
+			target = 996F0AAE98FDC52D9A6F93A82C6CD6B1 /* Pods-MyHealthCareAppBasic */;
+			targetProxy = 0EB7D40FC3A7DB65A7AAE210894FC910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09D89296F145EF0752FF9FA8606AFB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6884B9C8530AA731694DD9304003E8 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C43AFDAB3ABA35D97FDABE932E9232D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98E743429343BC5C8A8129275BC3944 /* Pods-MyHealthCareAppBasicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyHealthCareAppBasicTests/Pods-MyHealthCareAppBasicTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthCareAppBasicTests/Pods-MyHealthCareAppBasicTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		241CE6C1415B35DB4C504E6EAB437102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B6B65450D8F293E70D705BEA24C9FC /* Pods-MyHealthCareAppBasic.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D3C2F90A49AB1D4E3CC33A8B36E4BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C11AC05CBD23B2355ED9ECE57AC999 /* Pods-MyHealthCareAppBasicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyHealthCareAppBasicTests/Pods-MyHealthCareAppBasicTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthCareAppBasicTests/Pods-MyHealthCareAppBasicTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40CF23340406970D0D4B36A9B307B411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A4D83D54035A4AFE06A95F82CC54C7 /* Pods-MyHealthCareAppBasicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41268AF552E2DC6A5873C87C81174F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39673C8FB2145F3D12873EB78742BD1F /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58DA69CFA8518FD6E62D39C772080C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		65877ACE48B8FCD4052CBBFC571EDA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13D0ADB64BA0E65B33A7A3D6689C143 /* Pods-MyHealthCareAppBasicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69BF4D8E6E288E395F6F35A591579B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6884B9C8530AA731694DD9304003E8 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A345BCBDE6C296957161A3E85A47A280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39673C8FB2145F3D12873EB78742BD1F /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF99280C1A2F36039089D0D7005DFCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C8B54854A8125323498A762CA245E6 /* Pods-MyHealthCareAppBasic.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB97EB9D9B36E73AB2999D3A5E935BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132AF58F7858168F822018EED7A40D8B /* Build configuration list for PBXNativeTarget "Pods-MyHealthCareAppBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF99280C1A2F36039089D0D7005DFCF9 /* Debug */,
+				241CE6C1415B35DB4C504E6EAB437102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DA69CFA8518FD6E62D39C772080C16 /* Debug */,
+				DB97EB9D9B36E73AB2999D3A5E935BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7647FB71B8FF1A3A96CADB06A1C52F59 /* Build configuration list for PBXNativeTarget "Pods-MyHealthCareAppBasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3C2F90A49AB1D4E3CC33A8B36E4BD6 /* Debug */,
+				1C43AFDAB3ABA35D97FDABE932E9232D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CF4E4457D43D32F26BE3A2661331FB /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BF4D8E6E288E395F6F35A591579B81 /* Debug */,
+				09D89296F145EF0752FF9FA8606AFB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33BD297D376598875230234BB4505C3 /* Build configuration list for PBXNativeTarget "Pods-MyHealthCareAppBasicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65877ACE48B8FCD4052CBBFC571EDA81 /* Debug */,
+				40CF23340406970D0D4B36A9B307B411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41268AF552E2DC6A5873C87C81174F7D /* Debug */,
+				A345BCBDE6C296957161A3E85A47A280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

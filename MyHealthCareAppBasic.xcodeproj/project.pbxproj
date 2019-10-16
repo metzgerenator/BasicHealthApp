@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		B92904172356B31F00A33AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904162356B31F00A33AFE /* AppDelegate.swift */; };
 		B92904192356B31F00A33AFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904182356B31F00A33AFE /* SceneDelegate.swift */; };
-		B929041B2356B31F00A33AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B929041A2356B31F00A33AFE /* ViewController.swift */; };
 		B929041E2356B31F00A33AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B929041C2356B31F00A33AFE /* Main.storyboard */; };
 		B92904202356B32100A33AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B929041F2356B32100A33AFE /* Assets.xcassets */; };
 		B92904232356B32100A33AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92904212356B32100A33AFE /* LaunchScreen.storyboard */; };
 		B929042E2356B32100A33AFE /* MyHealthCareAppBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B929042D2356B32100A33AFE /* MyHealthCareAppBasicTests.swift */; };
 		B92904392356B32100A33AFE /* MyHealthCareAppBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904382356B32100A33AFE /* MyHealthCareAppBasicUITests.swift */; };
+		B92904842356B98D00A33AFE /* SelectHeathAttributesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904832356B98D00A33AFE /* SelectHeathAttributesTableViewController.swift */; };
+		C473D6549CBBDEF08BC95B3E /* Pods_MyHealthCareAppBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035B805CB6E3BA9282A7A113 /* Pods_MyHealthCareAppBasic.framework */; };
+		D084E5443EDBECE64DAAFEB4 /* Pods_MyHealthCareAppBasicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F7A52A71D3C62657FF7807 /* Pods_MyHealthCareAppBasicTests.framework */; };
+		E4F0769BD6DC2DB4E8B72464 /* Pods_MyHealthCareAppBasicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63FB7C75E7C8FAC1C001B75 /* Pods_MyHealthCareAppBasicUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		035B805CB6E3BA9282A7A113 /* Pods_MyHealthCareAppBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHealthCareAppBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A69F2FF60008F6B0397D90 /* Pods-MyHealthCareAppBasicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasicTests.release.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasicTests/Pods-MyHealthCareAppBasicTests.release.xcconfig"; sourceTree = "<group>"; };
+		72D22B252FA81C0F6144690E /* Pods-MyHealthCareAppBasicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasicTests.debug.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasicTests/Pods-MyHealthCareAppBasicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87906A723547D52A9A0699F4 /* Pods-MyHealthCareAppBasic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasic.release.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic.release.xcconfig"; sourceTree = "<group>"; };
+		8A67D2ED29A1F24B63B6E941 /* Pods-MyHealthCareAppBasic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasic.debug.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic.debug.xcconfig"; sourceTree = "<group>"; };
 		B92904132356B31F00A33AFE /* MyHealthCareAppBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHealthCareAppBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92904162356B31F00A33AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B92904182356B31F00A33AFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B929041A2356B31F00A33AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B929041D2356B31F00A33AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B929041F2356B32100A33AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92904222356B32100A33AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		B92904342356B32100A33AFE /* MyHealthCareAppBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHealthCareAppBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92904382356B32100A33AFE /* MyHealthCareAppBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthCareAppBasicUITests.swift; sourceTree = "<group>"; };
 		B929043A2356B32100A33AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92904832356B98D00A33AFE /* SelectHeathAttributesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHeathAttributesTableViewController.swift; sourceTree = "<group>"; };
+		E63FB7C75E7C8FAC1C001B75 /* Pods_MyHealthCareAppBasicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHealthCareAppBasicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33A74E8793EC44B6310819 /* Pods-MyHealthCareAppBasicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasicUITests.release.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED0A066C1BB854AB57233C4D /* Pods-MyHealthCareAppBasicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasicUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F7A52A71D3C62657FF7807 /* Pods_MyHealthCareAppBasicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHealthCareAppBasicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C473D6549CBBDEF08BC95B3E /* Pods_MyHealthCareAppBasic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D084E5443EDBECE64DAAFEB4 /* Pods_MyHealthCareAppBasicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F0769BD6DC2DB4E8B72464 /* Pods_MyHealthCareAppBasicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94DF1F86B021CCB6D271E3A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A67D2ED29A1F24B63B6E941 /* Pods-MyHealthCareAppBasic.debug.xcconfig */,
+				87906A723547D52A9A0699F4 /* Pods-MyHealthCareAppBasic.release.xcconfig */,
+				72D22B252FA81C0F6144690E /* Pods-MyHealthCareAppBasicTests.debug.xcconfig */,
+				67A69F2FF60008F6B0397D90 /* Pods-MyHealthCareAppBasicTests.release.xcconfig */,
+				ED0A066C1BB854AB57233C4D /* Pods-MyHealthCareAppBasicUITests.debug.xcconfig */,
+				EC33A74E8793EC44B6310819 /* Pods-MyHealthCareAppBasicUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8773566D433BB05B0AD1D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035B805CB6E3BA9282A7A113 /* Pods_MyHealthCareAppBasic.framework */,
+				F0F7A52A71D3C62657FF7807 /* Pods_MyHealthCareAppBasicTests.framework */,
+				E63FB7C75E7C8FAC1C001B75 /* Pods_MyHealthCareAppBasicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B929040A2356B31F00A33AFE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				B929042C2356B32100A33AFE /* MyHealthCareAppBasicTests */,
 				B92904372356B32100A33AFE /* MyHealthCareAppBasicUITests */,
 				B92904142356B31F00A33AFE /* Products */,
+				94DF1F86B021CCB6D271E3A8 /* Pods */,
+				A8773566D433BB05B0AD1D64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +139,9 @@
 		B92904152356B31F00A33AFE /* MyHealthCareAppBasic */ = {
 			isa = PBXGroup;
 			children = (
+				B92904822356B8A100A33AFE /* base report selection  */,
 				B92904162356B31F00A33AFE /* AppDelegate.swift */,
 				B92904182356B31F00A33AFE /* SceneDelegate.swift */,
-				B929041A2356B31F00A33AFE /* ViewController.swift */,
 				B929041C2356B31F00A33AFE /* Main.storyboard */,
 				B929041F2356B32100A33AFE /* Assets.xcassets */,
 				B92904212356B32100A33AFE /* LaunchScreen.storyboard */,
@@ -128,6 +168,14 @@
 			path = MyHealthCareAppBasicUITests;
 			sourceTree = "<group>";
 		};
+		B92904822356B8A100A33AFE /* base report selection  */ = {
+			isa = PBXGroup;
+			children = (
+				B92904832356B98D00A33AFE /* SelectHeathAttributesTableViewController.swift */,
+			);
+			path = "base report selection ";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B929043D2356B32100A33AFE /* Build configuration list for PBXNativeTarget "MyHealthCareAppBasic" */;
 			buildPhases = (
+				7A677186E0A0E6B805750EAD /* [CP] Check Pods Manifest.lock */,
 				B929040F2356B31F00A33AFE /* Sources */,
 				B92904102356B31F00A33AFE /* Frameworks */,
 				B92904112356B31F00A33AFE /* Resources */,
+				67F266A3617BF78498F6470F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B92904402356B32100A33AFE /* Build configuration list for PBXNativeTarget "MyHealthCareAppBasicTests" */;
 			buildPhases = (
+				571AB8DB67E3CED1DB081259 /* [CP] Check Pods Manifest.lock */,
 				B92904252356B32100A33AFE /* Sources */,
 				B92904262356B32100A33AFE /* Frameworks */,
 				B92904272356B32100A33AFE /* Resources */,
@@ -170,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B92904432356B32100A33AFE /* Build configuration list for PBXNativeTarget "MyHealthCareAppBasicUITests" */;
 			buildPhases = (
+				2BC8BAC4670D9C4DC04507ED /* [CP] Check Pods Manifest.lock */,
 				B92904302356B32100A33AFE /* Sources */,
 				B92904312356B32100A33AFE /* Frameworks */,
 				B92904322356B32100A33AFE /* Resources */,
@@ -254,14 +306,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BC8BAC4670D9C4DC04507ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHealthCareAppBasicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		571AB8DB67E3CED1DB081259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHealthCareAppBasicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F266A3617BF78498F6470F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyHealthCareAppBasic/Pods-MyHealthCareAppBasic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A677186E0A0E6B805750EAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyHealthCareAppBasic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B929040F2356B31F00A33AFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B929041B2356B31F00A33AFE /* ViewController.swift in Sources */,
 				B92904172356B31F00A33AFE /* AppDelegate.swift in Sources */,
 				B92904192356B31F00A33AFE /* SceneDelegate.swift in Sources */,
+				B92904842356B98D00A33AFE /* SelectHeathAttributesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +577,7 @@
 		};
 		B929043E2356B32100A33AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A67D2ED29A1F24B63B6E941 /* Pods-MyHealthCareAppBasic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +595,7 @@
 		};
 		B929043F2356B32100A33AFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87906A723547D52A9A0699F4 /* Pods-MyHealthCareAppBasic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +613,7 @@
 		};
 		B92904412356B32100A33AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D22B252FA81C0F6144690E /* Pods-MyHealthCareAppBasicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +635,7 @@
 		};
 		B92904422356B32100A33AFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A69F2FF60008F6B0397D90 /* Pods-MyHealthCareAppBasicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +657,7 @@
 		};
 		B92904442356B32100A33AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0A066C1BB854AB57233C4D /* Pods-MyHealthCareAppBasicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +677,7 @@
 		};
 		B92904452356B32100A33AFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC33A74E8793EC44B6310819 /* Pods-MyHealthCareAppBasicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
