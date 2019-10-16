@@ -37,12 +37,4 @@ struct MainResult {
     }
     
     
-    
-    //Resources
-    //Interest
-    //Resource -
-            //Title
-            //ImageUrl
-    
-    
 }

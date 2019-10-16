@@ -20,6 +20,8 @@
 		B929048C2356C43100A33AFE /* BasicAlertControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B929048B2356C43100A33AFE /* BasicAlertControllers.swift */; };
 		B929048F2356CA1500A33AFE /* ResultsDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B929048E2356CA1500A33AFE /* ResultsDetailTableViewController.swift */; };
 		B92904912356CA7600A33AFE /* MainResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904902356CA7600A33AFE /* MainResult.swift */; };
+		B9EA6E402357BBC0003DC5A1 /* ResultsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA6E3F2357BBC0003DC5A1 /* ResultsDetailViewModel.swift */; };
+		B9EA6E422357C0F2003DC5A1 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA6E412357C0F2003DC5A1 /* ResultsTableViewCell.swift */; };
 		C473D6549CBBDEF08BC95B3E /* Pods_MyHealthCareAppBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035B805CB6E3BA9282A7A113 /* Pods_MyHealthCareAppBasic.framework */; };
 		D084E5443EDBECE64DAAFEB4 /* Pods_MyHealthCareAppBasicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F7A52A71D3C62657FF7807 /* Pods_MyHealthCareAppBasicTests.framework */; };
 		E4F0769BD6DC2DB4E8B72464 /* Pods_MyHealthCareAppBasicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63FB7C75E7C8FAC1C001B75 /* Pods_MyHealthCareAppBasicUITests.framework */; };
@@ -67,6 +69,8 @@
 		B929048B2356C43100A33AFE /* BasicAlertControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAlertControllers.swift; sourceTree = "<group>"; };
 		B929048E2356CA1500A33AFE /* ResultsDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailTableViewController.swift; sourceTree = "<group>"; };
 		B92904902356CA7600A33AFE /* MainResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResult.swift; sourceTree = "<group>"; };
+		B9EA6E3F2357BBC0003DC5A1 /* ResultsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewModel.swift; sourceTree = "<group>"; };
+		B9EA6E412357C0F2003DC5A1 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
 		E63FB7C75E7C8FAC1C001B75 /* Pods_MyHealthCareAppBasicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHealthCareAppBasicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC33A74E8793EC44B6310819 /* Pods-MyHealthCareAppBasicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasicUITests.release.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ED0A066C1BB854AB57233C4D /* Pods-MyHealthCareAppBasicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealthCareAppBasicUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyHealthCareAppBasicUITests/Pods-MyHealthCareAppBasicUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 		B92904852356BF4F00A33AFE /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B92904902356CA7600A33AFE /* MainResult.swift */,
 				B92904862356BF6A00A33AFE /* AlamoRouter.swift */,
 				B92904882356BFBB00A33AFE /* MyHealthSelectionKeys.swift */,
 			);
@@ -210,7 +215,8 @@
 			isa = PBXGroup;
 			children = (
 				B929048E2356CA1500A33AFE /* ResultsDetailTableViewController.swift */,
-				B92904902356CA7600A33AFE /* MainResult.swift */,
+				B9EA6E3F2357BBC0003DC5A1 /* ResultsDetailViewModel.swift */,
+				B9EA6E412357C0F2003DC5A1 /* ResultsTableViewCell.swift */,
 			);
 			path = ResultsDetail;
 			sourceTree = "<group>";
@@ -447,10 +453,12 @@
 				B92904892356BFBB00A33AFE /* MyHealthSelectionKeys.swift in Sources */,
 				B929048F2356CA1500A33AFE /* ResultsDetailTableViewController.swift in Sources */,
 				B92904192356B31F00A33AFE /* SceneDelegate.swift in Sources */,
+				B9EA6E422357C0F2003DC5A1 /* ResultsTableViewCell.swift in Sources */,
 				B929048C2356C43100A33AFE /* BasicAlertControllers.swift in Sources */,
 				B92904842356B98D00A33AFE /* SelectHeathAttributesTableViewController.swift in Sources */,
 				B92904872356BF6A00A33AFE /* AlamoRouter.swift in Sources */,
 				B92904912356CA7600A33AFE /* MainResult.swift in Sources */,
+				B9EA6E402357BBC0003DC5A1 /* ResultsDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
