@@ -36,7 +36,9 @@ public enum AlamoRouter: URLRequestConvertible {
     var parameters: [String : Any] {
         switch self {
         case .myHealthFinderJson(let parameters):
-            return parameters
+            var finalParams = parameters
+            finalParams.updateValue(AlamoRouter.apiKey, forKey: MyHealthSelectionKeys.api_key.rawValue)
+            return finalParams
         }
     }
     
@@ -45,7 +47,6 @@ public enum AlamoRouter: URLRequestConvertible {
         var request = URLRequest(url: url.appendingPathComponent(path))
         request.httpMethod = method.rawValue
         request.timeoutInterval = TimeInterval(10 * 1000)
-        
         return try URLEncoding.default.encode(request, with: parameters)
         
        }

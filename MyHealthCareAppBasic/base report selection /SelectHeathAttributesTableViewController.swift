@@ -18,12 +18,7 @@ class SelectHeathAttributesTableViewController: UITableViewController {
     }
     
     private var isMale = true
-//    private var isMale: Bool? {
-//        didSet {
-//            print(isMale)
-//        }
-//    }
-//
+
     @IBOutlet weak var currentAge: UILabel!
     @IBOutlet weak var sliderOutlet: UISlider!
     @IBAction func sliderAction(_ sender: UISlider) {
@@ -35,7 +30,14 @@ class SelectHeathAttributesTableViewController: UITableViewController {
     
     
     @IBAction func getHealthInfo(_ sender: Any) {
-        
+        if let currentAge = selectedAge {
+           
+            let newQuery: [String : Any] = [MyHealthSelectionKeys.age.rawValue : currentAge,
+                            MyHealthSelectionKeys.sex.rawValue :  isMale ? MyHealthSelectionKeys.male.rawValue : MyHealthSelectionKeys.female.rawValue]
+            
+        } else {
+            self.presentBasicAlert(withTitle: "Select Age", withMessage: "Please an age")
+        }
     }
     
     

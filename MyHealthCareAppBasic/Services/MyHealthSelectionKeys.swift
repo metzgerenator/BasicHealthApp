@@ -9,8 +9,11 @@
 import Foundation
 
 enum MyHealthSelectionKeys: String {
-    case age
-    case sex
+    case age,
+    sex,
+    male,
+    female,
+    api_key
 }
 
 
