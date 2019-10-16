@@ -26,8 +26,8 @@ struct MainResult {
     
     init(json: JSON) {
         self.title = json[mainResultKey.Title.rawValue].stringValue
-        self.imageURL = json[mainResultKey.Title.rawValue].stringValue
-        self.AccessibleVersion = json[mainResultKey.Title.rawValue].stringValue
+        self.imageURL = json[mainResultKey.ImageUrl.rawValue].stringValue
+        self.AccessibleVersion = json[mainResultKey.AccessibleVersion.rawValue].stringValue
         
     }
     

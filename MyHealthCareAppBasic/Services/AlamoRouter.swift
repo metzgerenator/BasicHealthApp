@@ -8,7 +8,7 @@
 
 import Foundation
 import Alamofire
-
+import SwiftyJSON
 //https://healthfinder.gov/api/v2/myhealthfinder.json?api_key=demo_api_key&lang=en&age=16&sex=male&pregnant=0&who=someone&category=some
 
 public enum AlamoRouter: URLRequestConvertible {
@@ -52,11 +52,12 @@ public enum AlamoRouter: URLRequestConvertible {
        }
     
     
-    public static func alamoRouterRequest(withRoute: AlamoRouter) {
+    public static func alamoRouterRequest(withRoute: AlamoRouter, completion: @escaping(_ success: Bool, _ response: JSON) -> Void) {
         Alamofire.request(withRoute).responseJSON { (response) in
             guard let statusCode =  response.response?.statusCode else {return}
             if let json = response.result.value {
-                print("json \(json)")
+                let json = JSON(json)
+                completion(true, json["Result"])
             }
         }
        
