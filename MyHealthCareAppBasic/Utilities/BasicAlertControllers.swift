@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController {
     func presentBasicAlert(withTitle: String,  withMessage: String) {
-        let alertVc = UIAlertController(title: withTitle, message: withTitle, preferredStyle: .alert)
+        let alertVc = UIAlertController(title: withTitle, message: withMessage, preferredStyle: .alert)
         alertVc.addAction(UIAlertAction.init(title: "Ok" , style: .cancel, handler: nil))
         self.present(alertVc, animated: true, completion: nil)
     }

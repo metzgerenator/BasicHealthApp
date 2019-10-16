@@ -34,9 +34,10 @@ class SelectHeathAttributesTableViewController: UITableViewController {
            
             let newQuery: [String : Any] = [MyHealthSelectionKeys.age.rawValue : currentAge,
                             MyHealthSelectionKeys.sex.rawValue :  isMale ? MyHealthSelectionKeys.male.rawValue : MyHealthSelectionKeys.female.rawValue]
+            AlamoRouter.alamoRouterRequest(withRoute: .myHealthFinderJson(newQuery))
             
         } else {
-            self.presentBasicAlert(withTitle: "Select Age", withMessage: "Please an age")
+            self.presentBasicAlert(withTitle: "Select Age", withMessage: "Please select an age")
         }
     }
     
