@@ -14,7 +14,7 @@ class ResultsDetailTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        resultsViewModel = ResultsDetailViewModel(articleResults: healthResults, tableView: self.tableView)
+        resultsViewModel = ResultsDetailViewModel(articleResults: healthResults, tableView: self.tableView, managedVC: self)
         
     }
     

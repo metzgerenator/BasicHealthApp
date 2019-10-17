@@ -18,7 +18,7 @@ class SafariLaunchDelegate: NSObject {
         self.managedView = managedView
     }
     
-    private func launchSafariView() {
+    internal func launchSafariView() {
         guard let url = URL(string: url) else {return}
         let safariVc =  SFSafariViewController(url: url)
         managedView.present(safariVc, animated: true, completion: nil)
