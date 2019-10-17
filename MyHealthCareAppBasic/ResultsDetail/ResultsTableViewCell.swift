@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ResultsTableViewCell: UITableViewCell {
 
@@ -14,9 +15,8 @@ class ResultsTableViewCell: UITableViewCell {
     @IBOutlet weak var articleTitle: UILabel!
     
     func configureCell(_ mainResult: MainResult) {
-        
-        //finish configuation here
-        
+        articleTitle.text = mainResult.title
+        resultImage.sd_setImage(with: URL(string: mainResult.imageURL), placeholderImage: #imageLiteral(resourceName: "genericMedical"))
     }
 
 }

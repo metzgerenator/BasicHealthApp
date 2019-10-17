@@ -9,7 +9,7 @@
 import UIKit
 
 class SelectHeathAttributesTableViewController: UITableViewController {
-    
+    private var segueIdentifer = "results"
     
     private var selectedAge: Int? {
         didSet {
@@ -36,7 +36,7 @@ class SelectHeathAttributesTableViewController: UITableViewController {
                             MyHealthSelectionKeys.sex.rawValue :  isMale ? MyHealthSelectionKeys.male.rawValue : MyHealthSelectionKeys.female.rawValue]
             AlamoRouter.alamoRouterRequest(withRoute: .myHealthFinderJson(newQuery)) { (success, json) in
                let result =  MainResult.responseTopics(json: json)
-                print(result)
+                self.performSegue(withIdentifier: self.segueIdentifer, sender: result)
             }
             
         } else {
@@ -60,4 +60,15 @@ class SelectHeathAttributesTableViewController: UITableViewController {
 
  
     
+}
+
+
+extension SelectHeathAttributesTableViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueIdentifer {
+            guard let vc = segue.destination as? ResultsDetailTableViewController,
+                let results = sender as? [MainResult] else {return}
+            vc.healthResults = results
+        }
+    }
 }

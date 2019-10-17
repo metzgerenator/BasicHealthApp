@@ -9,13 +9,19 @@
 import UIKit
 
 class ResultsDetailTableViewController: UITableViewController {
-
+    internal var healthResults = [MainResult]()
+    private var resultsViewModel: ResultsDetailViewModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        resultsViewModel = ResultsDetailViewModel(articleResults: healthResults, tableView: self.tableView)
+        
     }
-
-
-  
-
+    
+    
+    
+    
+    
+    
+    
 }

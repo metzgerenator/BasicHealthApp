@@ -121,7 +121,7 @@
                     <connections>
                         <outlet property="currentAge" destination="8Ez-Oz-PFK" id="baS-mN-8ZG"/>
                         <outlet property="sliderOutlet" destination="YaD-xT-OhE" id="HCl-XW-LBI"/>
-                        <segue destination="jPR-jg-TiQ" kind="showDetail" id="loB-ZD-WHX"/>
+                        <segue destination="jPR-jg-TiQ" kind="showDetail" identifier="results" id="loB-ZD-WHX"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7A4-cf-rfz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -149,6 +149,10 @@
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d6h-WE-Utb">
                                                     <rect key="frame" x="0.0" y="4" width="96" height="65"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="65" id="Fmn-Jr-4Tg"/>
+                                                        <constraint firstAttribute="width" constant="96" id="r4b-JK-40h"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="really long label      " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mA8-9e-5PY">
                                                     <rect key="frame" x="102" y="26.5" width="261" height="20.5"/>
@@ -180,7 +184,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zRC-zY-5n0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1792.753623188406" y="92.410714285714278"/>
+            <point key="canvasLocation" x="1688" y="105"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pog-wg-mV6">
