@@ -8,27 +8,27 @@
 
 import XCTest
 @testable import MyHealthCareAppBasic
+import Alamofire
 
 class MyHealthCareAppBasicTests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    /**
+     tests if the api is returning a 200.  A second test could be addded to account for invalid characters.  Right now the AlamoRouter does not parse out the error key.
+     */
+    func testAPICall() {
+        
+        let promise = expectation(description: "success api call")
+        let query: [String : Any] = [MyHealthSelectionKeys.age.rawValue : 26,
+                                                   MyHealthSelectionKeys.sex.rawValue : MyHealthSelectionKeys.male.rawValue ]
+        AlamoRouter.alamoRouterRequest(withRoute: .myHealthFinderJson(query)) { (success, responseJson) in
+            if success || responseJson == nil {
+                promise.fulfill()
+            } else {
+                XCTFail("api call failed")
+            }
         }
+        wait(for: [promise], timeout: 10)
     }
+
 
 }
