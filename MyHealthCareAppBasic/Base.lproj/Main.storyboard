@@ -121,7 +121,7 @@
                     <connections>
                         <outlet property="currentAge" destination="8Ez-Oz-PFK" id="baS-mN-8ZG"/>
                         <outlet property="sliderOutlet" destination="YaD-xT-OhE" id="HCl-XW-LBI"/>
-                        <segue destination="jPR-jg-TiQ" kind="showDetail" identifier="results" id="loB-ZD-WHX"/>
+                        <segue destination="jPR-jg-TiQ" kind="show" identifier="results" id="loB-ZD-WHX"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7A4-cf-rfz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -133,9 +133,14 @@
             <objects>
                 <tableViewController id="jPR-jg-TiQ" customClass="ResultsDetailTableViewController" customModule="MyHealthCareAppBasic" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="19T-wL-c3q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="IUf-4Y-ajk">
+                            <rect key="frame" x="0.0" y="129" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="73" id="fIk-2z-1bJ" customClass="ResultsTableViewCell" customModule="MyHealthCareAppBasic" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="73"/>
@@ -181,10 +186,11 @@
                             <outlet property="delegate" destination="jPR-jg-TiQ" id="nwO-T8-Glg"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Sr0-WF-F6l"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zRC-zY-5n0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688" y="105"/>
+            <point key="canvasLocation" x="1716" y="98"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pog-wg-mV6">

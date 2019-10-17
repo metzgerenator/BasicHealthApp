@@ -20,6 +20,7 @@
 		B929048C2356C43100A33AFE /* BasicAlertControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B929048B2356C43100A33AFE /* BasicAlertControllers.swift */; };
 		B929048F2356CA1500A33AFE /* ResultsDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B929048E2356CA1500A33AFE /* ResultsDetailTableViewController.swift */; };
 		B92904912356CA7600A33AFE /* MainResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92904902356CA7600A33AFE /* MainResult.swift */; };
+		B94DAE2B235807BA00E37B6B /* SafariLaunchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94DAE2A235807BA00E37B6B /* SafariLaunchDelegate.swift */; };
 		B9EA6E402357BBC0003DC5A1 /* ResultsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA6E3F2357BBC0003DC5A1 /* ResultsDetailViewModel.swift */; };
 		B9EA6E422357C0F2003DC5A1 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA6E412357C0F2003DC5A1 /* ResultsTableViewCell.swift */; };
 		C473D6549CBBDEF08BC95B3E /* Pods_MyHealthCareAppBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035B805CB6E3BA9282A7A113 /* Pods_MyHealthCareAppBasic.framework */; };
@@ -69,6 +70,7 @@
 		B929048B2356C43100A33AFE /* BasicAlertControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAlertControllers.swift; sourceTree = "<group>"; };
 		B929048E2356CA1500A33AFE /* ResultsDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailTableViewController.swift; sourceTree = "<group>"; };
 		B92904902356CA7600A33AFE /* MainResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResult.swift; sourceTree = "<group>"; };
+		B94DAE2A235807BA00E37B6B /* SafariLaunchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariLaunchDelegate.swift; sourceTree = "<group>"; };
 		B9EA6E3F2357BBC0003DC5A1 /* ResultsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewModel.swift; sourceTree = "<group>"; };
 		B9EA6E412357C0F2003DC5A1 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
 		E63FB7C75E7C8FAC1C001B75 /* Pods_MyHealthCareAppBasicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHealthCareAppBasicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				B929048B2356C43100A33AFE /* BasicAlertControllers.swift */,
+				B94DAE2A235807BA00E37B6B /* SafariLaunchDelegate.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92904172356B31F00A33AFE /* AppDelegate.swift in Sources */,
+				B94DAE2B235807BA00E37B6B /* SafariLaunchDelegate.swift in Sources */,
 				B92904892356BFBB00A33AFE /* MyHealthSelectionKeys.swift in Sources */,
 				B929048F2356CA1500A33AFE /* ResultsDetailTableViewController.swift in Sources */,
 				B92904192356B31F00A33AFE /* SceneDelegate.swift in Sources */,
