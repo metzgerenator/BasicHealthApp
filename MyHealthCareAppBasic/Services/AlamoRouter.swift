@@ -52,12 +52,15 @@ public enum AlamoRouter: URLRequestConvertible {
        }
     
     
-    public static func alamoRouterRequest(withRoute: AlamoRouter, completion: @escaping(_ success: Bool, _ response: JSON) -> Void) {
+    public static func alamoRouterRequest(withRoute: AlamoRouter, completion: @escaping(_ success: Bool, _ response: JSON?) -> Void) {
         Alamofire.request(withRoute).responseJSON { (response) in
-            guard let statusCode =  response.response?.statusCode else {return}
+            guard let statusCode =  response.response?.statusCode, statusCode == 200 else {completion(false, nil); return}
+            
             if let json = response.result.value {
                 let json = JSON(json)
                 completion(true, json["Result"])
+            } else {
+                completion(false, nil)
             }
         }
        

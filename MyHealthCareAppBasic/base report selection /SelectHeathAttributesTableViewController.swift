@@ -30,18 +30,7 @@ class SelectHeathAttributesTableViewController: UITableViewController {
     
     
     @IBAction func getHealthInfo(_ sender: Any) {
-        if let currentAge = selectedAge {
-           
-            let newQuery: [String : Any] = [MyHealthSelectionKeys.age.rawValue : currentAge,
-                            MyHealthSelectionKeys.sex.rawValue :  isMale ? MyHealthSelectionKeys.male.rawValue : MyHealthSelectionKeys.female.rawValue]
-            AlamoRouter.alamoRouterRequest(withRoute: .myHealthFinderJson(newQuery)) { (success, json) in
-               let result =  MainResult.responseTopics(json: json)
-                self.performSegue(withIdentifier: self.segueIdentifer, sender: result)
-            }
-            
-        } else {
-            self.presentBasicAlert(withTitle: "Select Age", withMessage: "Please select an age")
-        }
+       checkApi()
     }
     
     
@@ -71,4 +60,34 @@ extension SelectHeathAttributesTableViewController {
             vc.healthResults = results
         }
     }
+}
+
+
+
+
+//MARK: query api and present detail
+
+extension SelectHeathAttributesTableViewController {
+    
+    private func checkApi() {
+        if let currentAge = selectedAge {
+            let indicator = self.showIndicator()
+            indicator.startAnimating()
+            let newQuery: [String : Any] = [MyHealthSelectionKeys.age.rawValue : currentAge,
+                                            MyHealthSelectionKeys.sex.rawValue :  isMale ? MyHealthSelectionKeys.male.rawValue : MyHealthSelectionKeys.female.rawValue]
+            AlamoRouter.alamoRouterRequest(withRoute: .myHealthFinderJson(newQuery)) { (success, json) in
+                indicator.stopAnimating()
+                indicator.removeFromSuperview()
+                if success {
+                    guard let jsonResult = json else {return}
+                    let result =  MainResult.responseTopics(json: jsonResult)
+                    self.performSegue(withIdentifier: self.segueIdentifer, sender: result)
+                }
+            }
+            
+        } else {
+            self.presentBasicAlert(withTitle: "Select Age", withMessage: "Please select an age")
+        }
+    }
+    
 }
